@@ -12,6 +12,7 @@ namespace faketwitter.Controllers
 {
     public class PostsController : Controller
     {
+        
         private PostContext db = new PostContext();
 
         // GET: Posts

@@ -190,6 +190,10 @@
     <Compile Include="Migrations\201512181735107_new.Designer.cs">
       <DependentUpon>201512181735107_new.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201512182113109_post.cs" />
+    <Compile Include="Migrations\201512182113109_post.Designer.cs">
+      <DependentUpon>201512182113109_post.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Follower.cs" />
@@ -288,6 +292,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201512181735107_new.resx">
       <DependentUpon>201512181735107_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201512182113109_post.resx">
+      <DependentUpon>201512182113109_post.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
