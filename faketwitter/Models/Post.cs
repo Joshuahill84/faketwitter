@@ -7,5 +7,11 @@ namespace faketwitter.Models
 {
     public class Post
     {
+        public int PostId { get; set; }
+        public string Text { get; set; }
+        public DateTime PostedDate { get; set; }
+        public User user { get; set; }
+        
+
     }
 }
